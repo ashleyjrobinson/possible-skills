@@ -62,30 +62,30 @@ Config.SkillName3ValueThird = 'Quicker Hacking Times'    -- Value for the third 
 Config.JobReputationMenuTitle = 'Job Reputation'
 
 -- First Job Reputation
-Config.JobReputationName1 = 'Farming'                    -- Skill Name Title
+Config.JobReputationName1 = 'Farming'  -- Skill Name Title
 Config.JobReputationName1Icon = 'fa-solid fa-wheat-awn'  -- Font Awesome Icon
-Config.JobReputationName1IconColour = 'yellow'           -- Colour of the Icon
-Config.JobReputationName1Rep = 'farmerrep'               -- Name of the metadata for the skill
-Config.JobReputationName1ProgressColour = 'green'        -- Progress Bar Colour
-Config.JobReputationName1LabelFirst = 'Level 1-5'        -- Label for the first perk
-Config.JobReputationName1ValueFirst = 'Quick processes and more returns'   -- Value for the first perk
+Config.JobReputationName1IconColour = 'yellow' -- Colour of the Icon
+Config.JobReputationName1Rep = 'farmerrep' -- Name of the metadata for the skill
+Config.JobReputationName1ProgressColour = 'green' -- Progress Bar Colour
+Config.JobReputationName1LabelFirst = 'Level 1-5' -- Label for the first perk
+Config.JobReputationName1ValueFirst = 'Quick processes and more returns' -- Value for the first perk
 
 -- Second Job Reputation
-Config.JobReputationName2 = 'Mining'                                     -- Skill Name Title
-Config.JobReputationName2Icon = 'fa-solid fa-hill-rockslide'             -- Font Awesome Icon
-Config.JobReputationName2IconColour = 'silver'                           -- Colour of the Icon
-Config.JobReputationName2Rep = 'miningrep'                               -- Name of the metadata for the skill
-Config.JobReputationName2ProgressColour = 'green'                        -- Progress Bar Colour
-Config.JobReputationName2LabelFirst = 'Level 1-5'                        -- Label for the first perk
+Config.JobReputationName2 = 'Mining'  -- Skill Name Title
+Config.JobReputationName2Icon = 'fa-solid fa-hill-rockslide' -- Font Awesome Icon
+Config.JobReputationName2IconColour = 'silver' -- Colour of the Icon
+Config.JobReputationName2Rep = 'miningrep' -- Name of the metadata for the skill
+Config.JobReputationName2ProgressColour = 'green' -- Progress Bar Colour
+Config.JobReputationName2LabelFirst = 'Level 1-5' -- Label for the first perk
 Config.JobReputationName2ValueFirst = 'Quick processes and more returns' -- Value for the first perk
 
 -- Third Job Reputation
-Config.JobReputationName3 = 'Butchering'                                 -- Skill Name Title
-Config.JobReputationName3Icon = 'fa-solid fa-utensils'                       -- Font Awesome Icon
-Config.JobReputationName3IconColour = 'white'                            -- Colour of the Icon
-Config.JobReputationName3Rep = 'butcherrep'                              -- Name of the metadata for the skill
-Config.JobReputationName3ProgressColour = 'green'                        -- Progress Bar Colour
-Config.JobReputationName3LabelFirst = 'Level 1-5'                        -- Label for the first perk
+Config.JobReputationName3 = 'Butchering' -- Skill Name Title
+Config.JobReputationName3Icon = 'fa-solid fa-utensils' -- Font Awesome Icon
+Config.JobReputationName3IconColour = 'white' -- Colour of the Icon
+Config.JobReputationName3Rep = 'butcherrep'-- Name of the metadata for the skill
+Config.JobReputationName3ProgressColour = 'green' -- Progress Bar Colour
+Config.JobReputationName3LabelFirst = 'Level 1-5' -- Label for the first perk
 Config.JobReputationName3ValueFirst = 'Quick processes and more returns' -- Value for the first perk
 
 

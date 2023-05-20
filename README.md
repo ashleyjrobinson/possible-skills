@@ -18,7 +18,7 @@ Here's a simple Skill Menu which uses ox_lib context menu that allows you to cre
 
 You can see how the above was used in the /client/main.lua and the config, to add more simply duplicate both and edit accordingly, I've made this very configurable for ease of use to others.
 
--- Add trigger to radial menu (qb-radial example)
+- Add trigger to radial menu (qb-radial example)
 
 ```
 id = 'skills',
@@ -27,7 +27,6 @@ icon = 'chart-bar',
 type = 'client',
 event = 'possible-skillmenu:client:SkillMenu',
 shouldClose = true
-
 ```
 
 ## Notes
