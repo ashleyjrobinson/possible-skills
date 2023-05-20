@@ -37,3 +37,6 @@ Join my Discord for support and roles.
 
 https://discord.gg/5VU8MA7Tkz
 
+
+Credit:
+I was originally using - https://github.com/boiidevelopment/boii-skillsmenu-qb on my server before moving to more overextended resources, so I took inspiration from there and expanded upon it to use ox_lib menu.
