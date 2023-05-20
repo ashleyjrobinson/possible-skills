@@ -4,7 +4,7 @@ QBCore.Commands.Add(Config.SkillMenuCommand, Config.SkillMenuCommandDescription,
     TriggerClientEvent('possible-skillmenu:client:SkillMenu', source)
 end)
 
-RegisterServerEvent('possible-skillmenu:sv:XP', function(args, metadata, amount)
+RegisterServerEvent('possible-skillmenu:server:XP', function(args, metadata, amount)
     local PlayerData = QBCore.Functions.GetPlayer(source)
     local currentxp = PlayerData.PlayerData.metadata[metadata]
     local args = tonumber(args)
