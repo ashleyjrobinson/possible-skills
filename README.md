@@ -6,16 +6,15 @@ Here's a simple Skill Menu which uses ox_lib context menu that allows you to cre
 
 - Add any meta data (skills) you want into `qb-core/server/player.lua`
 
-PlayerData.metadata['drugrep'] = PlayerData.metadata['drugrep'] or 0 -- Drug Manufacturing
+`PlayerData.metadata['drugrep'] = PlayerData.metadata['drugrep'] or 0 -- Drug Manufacturing`
 
 - Add checks for the players meta data (client side example)
 
-if QBCore.Functions.GetPlayerData().metadata['drugrep'] >= 1000 -- If Drug Manufacturing is equal to or greater than 10
+`if QBCore.Functions.GetPlayerData().metadata['drugrep'] >= 1000 -- If Drug Manufacturing is equal to or greater than 10`
 
 - Add 50 XP through export for completion of task
 
-exports['possible-skillmenu']:XP(1, 'drugrep', 50)
-
+`exports['possible-skillmenu']:XP(1, 'drugrep', 50)`
 
 You can see how the above was used in the /client/main.lua and the config, to add more simply duplicate both and edit accordingly, I've made this very configurable for ease of use to others.
 
