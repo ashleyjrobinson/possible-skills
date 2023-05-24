@@ -1,11 +1,11 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-local PlayerData = QBCore.Functions.GetPlayerData()
 
 local function XP(args, metadata, amount)
 	TriggerServerEvent('possible-skillmenu:server:XP', args, metadata, amount)
 end exports('XP', XP)
 
 RegisterNetEvent('possible-skillmenu:client:SkillMenu', function()
+	local PlayerData = QBCore.Functions.GetPlayerData()
 	lib.registerContext({
 		id = 'skill_menu',
 		title = Config.SkillMenuTitleInner,
